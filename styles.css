@@ -1,0 +1,43 @@
+body {
+  background-image: url(/images/andrei-r-popescu-V0QnzTOWU8M-unsplash.jpg);
+  background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #c5c2c2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    /* border: 1px solid #f5f5f5; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(42, 42, 43);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #fffefe;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  p {
+    font-size: 40px;
+  }
